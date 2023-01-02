@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Work+Sans:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+
+    margin: 40px;
+}
+.about {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    margin: 20px;
+    border-bottom: 2px solid black;
+    line-height: 30px;
+
+}
+.education {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    margin: 20px;
+    border-bottom: 2px solid black;
+    line-height: 30px;
+
+}
+.experience {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    margin: 20px;
+    border-bottom: 2px solid black;
+    line-height: 30px;
+
+}
+
+li {
+    margin: 10px ;
+}
+p {
+    
+    letter-spacing: 5px;
+    width: 800px;
+}
+h2 {
+    margin: 5px;
+}
+.img {
+    width: 50px;
+}
+.social {
+     display: flex;
+     justify-content: space-around;
+}
+
+#btn-more  {
+    width: 100px;
+    border-radius: 20px;
+    background-color: #9e9e9e;
+    margin-bottom: 30px;
+}
+#btn-less  {
+    width: 100px;
+    border-radius: 20px;
+    background-color: #9e9e9e;
+    margin-bottom: 30px;
+}
+.show-less  {
+        width: 100px;
+        border-radius: 20px;
+        background-color: #9e9e9e;
+        margin-bottom: 30px; 
+    }
+    
+   
+
+
+.readMore {
+  border: 2px solid black;
+  display: none;
+}
+
+.btn-hide {
+    display: none;
+}
+

@@ -1,0 +1,41 @@
+ html, body P{
+    width: 450px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ 
+ .container {
+    width: 450px;
+ }
+
+ #inputfield {
+    width: 360px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+
+ }
+
+ #addTodo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black ;
+    vertical-align:  middle;
+    font-size: 20px;
+
+ }
+
+ .todocontainer {
+    margin-top: 25px;
+
+ }
+
+ .paragraph-style {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+
+ }
