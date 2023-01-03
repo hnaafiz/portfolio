@@ -111,6 +111,7 @@ a {
     padding: 12px;
     background-color: #f8f8f8;
     border: 2px solid  #c2c2c2;
+    color: black;
 }
 .projects-container {
     display: flex;
