@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 
 <head>
     <meta charset="UTF-8">
@@ -8,49 +8,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB 101</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
+
 
 </head>
 
 <body>
     <header>
-        <div id="logo">
-            <img src="./img/signature.png" alt="">
+        <div class="header-container">
+            <div id="logo">
+                <img src="./img/signature.png" alt="">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home-container">Home</a></li>
+                    <li><a href="#project-container">Projects</a></li>
+                    <li><a href="#contact-container">Contact</a></li>
+                </ul>
+            </nav>
+
         </div>
-        <nav id="nav">
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
+
     </header>
-    <div class="container">
+    <div class="home-container" id="home-container">
         <div class="left">
             <div class="intro">
                 <h1>Welcome</h1>
-            <p>My Name is Naafiz, I'm a wanna be front-end and back-end developer. Inspired from Adams's tweet about work from home.</p>
+                <p>My Name is Naafiz, I'm a wanna be front-end and back-end developer. Inspired from Adams's tweet about
+                    work from home.</p>
             </div>
-            
+
         </div>
-        <div class="right">
+
+    </div>
+    <div class="projects-container" id="project-container">
+        
             <h1>Projects</h1>
             <ul class="list">
-                <a href="./project/class 1 /index.html">Project 101</a>
-                <a href="">Project 102</a>
-                <a href="">Project 103</a>
-                <a href="">Project 104</a>
+                <a href="./project/class 1 /index.html">project 101</a>
+                <a href="">project 102</a>
+                <a href="">project 103</a>
+                <a href="">porject 104</a>
                 
             </ul>
 
-        </div>
+        
+        
+    </div>
+    <div class="contact-container" id="contact-container">
+        <textarea name="" id="text" cols="30" rows="10">text here</textarea><br>
+        <P class="mail-success">Mail sent</P>
+
+        <button class="btn">send mail</a></button>
+        
     </div>
 
-    
+<script src="script.js"></script>
 </body>
 
 </html>

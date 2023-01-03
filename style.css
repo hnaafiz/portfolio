@@ -6,16 +6,26 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #c2c2c2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
-header{
+.header-container{
     
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid #7393B3;
-
+    border-bottom: 2px solid  #c2c2c2;
 }
 ul {
     display: flex;
@@ -28,26 +38,18 @@ a {
    
 }
 
-li a:hover::after {
-width: 100%;
-}
-main {
-    display: flex;
-    
-    height: calc(100vh - 100px);
-    align-items: center;
-    justify-content: center;
-}
+
+
 .img {
     max-width: 670px;
     height: auto;
 }
 
-.container {
+.home-container {
     display: flex;
-    
+  
     width: auto;
-    height: 730px;
+    height: 790px;
     align-items: center;
    
     
@@ -85,4 +87,37 @@ p {
 }
 a {
     margin: 10px;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 20px;
+    margin-top: 100px;
+    height: 790px;
+}
+#text {
+    margin: 20px;
+    width: 820px;
+    height: 280px;
+
+}
+button {
+    margin: 20px;
+    
+    border-radius: 10px;
+    width: 90px;
+}
+.projects-container {
+    display: flex;
+    height: 790px;
+   
+    align-items: center;
+    justify-content: center;
+
+}
+.mail-success {
+    display: none;
 }
