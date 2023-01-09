@@ -41,13 +41,15 @@ ul {
 .hero {
    padding-top: 100px;
    padding-bottom: 240px;
-   background-color: #ffffff#fff;
+   padding-left: 2em;
+   background-color: #f6fafd;
 
 }
-.special-heading {
-    background-color: #ffffff#fff;
-    width: 100%;
-    padding-left: 25em;
+.special-heading-1 {
+    display: block;
+    background-color: #ffffff;
+    
+
 
 }
 .h-heading {
@@ -66,7 +68,7 @@ ul {
 .h-btn {
     position: absolute;
     color: white;
-    background-color: rgb(61, 61, 189);
+    background-color: #0070cc;
     width: 15em;
     height: 5em;
     left: 200px;
@@ -93,7 +95,7 @@ ul {
 }
 .mainb {
     padding: 60px 0px;
-    background-color: #ffffff#fff;
+    background-color: #ffffff;
    
 }
 
