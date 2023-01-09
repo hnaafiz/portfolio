@@ -30,6 +30,25 @@ ul {
     background-color: grey;
     list-style-type: none;
 }
+
+
+
+
+.expert {
+    display: flex;
+    
+} 
+.expert img {
+    border: 1px solid black;
+    
+} 
+.expert-col {
+    border: 1px solid black;
+}
+
+.hero-about-us {
+    padding: 2em;
+}
    
 
 
@@ -44,6 +63,10 @@ ul {
    padding-left: 2em;
    background-color: #f6fafd;
 
+}
+.hero-s {
+    max-width: 50em;
+    border: 1px solid black;
 }
 .special-heading-1 {
     display: block;
