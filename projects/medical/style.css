@@ -7,11 +7,14 @@ body {
     font-family: 'Montserrat';
     margin: 0;
     background-color: #f6fafd;
+    
    
 
 }
 
-
+.wrapper {
+    max-width: 40em;
+}
 
 
 
@@ -22,7 +25,7 @@ body {
 header {
     align-items: center;
     background-color: #f6fafd;
-    overflow-wrap: break-word;
+  
 }
 ul {
     
@@ -34,22 +37,7 @@ ul {
 
 
 
-.expert {
-    display: flex;
-    
-} 
-.expert img {
-    border: 1px solid black;
-    
-} 
-.expert-col {
-    border: 1px solid black;
-}
 
-.hero-about-us {
-    padding: 2em;
-}
-   
 
 
 
@@ -66,7 +54,7 @@ ul {
 }
 .hero-s {
     max-width: 50em;
-    border: 1px solid black;
+    border-bottom: 2px solid black;
 }
 .special-heading-1 {
     display: block;
@@ -95,7 +83,7 @@ ul {
     width: 15em;
     height: 5em;
     left: 200px;
-    border-radius: 5px;
+    
     border: 0;
 }
 
@@ -119,12 +107,16 @@ ul {
 .mainb {
     padding: 60px 0px;
     background-color: #ffffff;
+    max-width: 40em;
+    word-wrap: break-word;
    
 }
 
 .main-p, h3{
     text-align: center;
     line-height: 2em;
+    padding: 2em;
+    
     
 }
 .img {
@@ -156,4 +148,66 @@ height: 3sem;
 
 
 
+}
+ .about-us-img {
+   margin-top: 2em;
+   margin-right: 2em;
+   margin-bottom: 2em;
+   width: 2em;
+ }
+ .expert {
+    display: flex;
+    
+} 
+
+.hero-about-us {
+    padding: 2em;
+    
+}
+p {
+    line-height: 2em;
+}
+
+
+
+
+
+
+.form {
+    display: flex;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    padding: 20px;
+}
+.input {
+    height: 3em;
+    background-color: #eff8ff;
+    border: 1px solid #d3e9fa;
+    margin: 1em 0em;
+}
+.checkbox {
+    margin: 2em 0em;
+}
+select {
+    width: 20em;
+    height: 3em;
+}
+option {
+   font-size: large;
+}
+.r-btn {
+    margin-top: 2em;
+    position: absolute;
+    color: white;
+    background-color: #0070cc;
+    width: 20em;
+    height: 4em;
+    border: none;
+    border-radius: .3em;
 }
