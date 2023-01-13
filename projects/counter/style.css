@@ -1,0 +1,23 @@
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+    
+}
+.center {
+   
+   align-items: center;
+}
+
+
+.container-fluid {
+    width: auto;
+    height: 100vh;
+    justify-content: center;
+}
+
+.m-3 {
+    margin: 3em 3em;
+} 
+.m-2 {
+    margin: 2em 2em;
+} 

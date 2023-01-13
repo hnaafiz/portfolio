@@ -14,50 +14,43 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <div id="logo">
-                <img src="./img/signature.png" alt="">
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#home-container">Home</a></li>
-                    <li><a href="#project-container">Projects</a></li>
-                    <li><a href="#contact-container">Contact</a></li>
-                </ul>
-            </nav>
+    <!--HEADER-->
+    <div class="header-container">
 
-        </div>
+        <nav>
+            <ul class="d-flex" >
+                <li><a href="#home-container">Home</a></li>
+                <li><a href="#project-container">Projects</a></li>
+                <li><a href="#contact-container">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    </header>
-    <div class="home-container" id="home-container">
-        <div class="left">
+
+    <!--left-->
+    <div class="d-flex">
+        <div class="container">
             <div class="intro">
                 <h1>Welcome</h1>
-                <p>My Name is Naafiz, front-end and back-end developer. Inspired from Adams's tweet about
-                    work from home.</p>
+                <p>My Name is Naafiz, front-end and back-end developer.</p>
             </div>
-
         </div>
+        <!--right-->
+    <div class="d-flex">
+        <h1>Projects</h1>
+        <ul class="d-flex-column">
+            <a href="./projects/medical/index.html">clinic</a>
+            <a href="./projects/starbucks/index.html">starbucks</a>
+            <a href="./projects/counter/index.html">counter</a>
+        </ul>
+    </div>
 
     </div>
-    <div class="projects-container" id="project-container">
-        
-            <h1>Projects</h1>
-            <ul class="list">
-                <a href="./project/class 1 /index.html">project 101</a>
-                <a href="./projects/medical/index.html">clinic</a>
-                <a href="./projects/food /index.html">starbucks</a>
-                <a href="">porject 104</a>
-                
-            </ul>
 
-        
-        
-    </div>
+
     
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
