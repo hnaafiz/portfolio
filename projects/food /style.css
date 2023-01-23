@@ -1,0 +1,17 @@
+.img {
+    height: 300px;
+    
+    border-radius: 0 90px 90px 0 ;
+
+
+}
+
+.plus-btn {
+    height: 20px;
+}
+
+.hero-img {
+    width: 400px;
+
+    height: 400px;
+}
